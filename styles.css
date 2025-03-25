@@ -1,0 +1,113 @@
+body {
+    font-family: "Pixelify Sans";
+    background-color: #1e3a8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Navigation Buttons (Top Right) */
+.nav-buttons {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.nav-buttons .btn {
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: #1e3a8a;
+    font-weight: bold;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.nav-buttons .btn:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    color: #1e3a8a;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #f3f7fe;
+    color: #3b82f6;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1e3a8a;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background: #e0f2fe;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #b91c1c;
+}
+.input-container, .input-container2, .input-container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Aligns text and input fields properly */
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-bottom: 5px; /* Adds spacing between label and input */
+}
